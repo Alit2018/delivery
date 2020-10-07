@@ -1,0 +1,46 @@
+/*
+body {
+  background: white;
+}
+*/
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  /*border: 1px solid red;*/
+  max-width: 1200px;
+  margin: auto;
+  /*always in the middle*/
+}
+
+.header {
+  display: flex;
+  /*elemnts align in a line*/
+  align-items: center;
+  /*center elements vertically*/
+  justify-content: space-between;
+  /* give it equal distance */
+}
+
+search-input {
+  /* Gray / gray-1 */
+  background: #FFFFFF;
+  /* Gray / gray-5 */
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+  height: 40px;
+  width: 69px;
+  font-size: 16px;
+  line-height: 24px;
+  background-image: url(../img/home.svg);
+  background-repeat: no-repeat;
+  background-position: left 11px center;
+  padding-left: 35px;
+}
+
+.button {
+  padding: 8px p 16px;
+  /*p8-p16*/
+
+}
